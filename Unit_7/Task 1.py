@@ -12,8 +12,8 @@ MAX_ITEM = 100
 array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 print(array)
 def puz(A):
-    for i in range(len(A - 1)):
-        for i in range(len(A - 1)):
+    for i in range(len(A) - 1):
+        for i in range(len(A) - 1):
             if array[i] > array[i + 1]:
                 array[i], array[i + 1] = array[i + 1], array[i]     
     return A
