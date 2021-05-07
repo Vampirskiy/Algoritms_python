@@ -32,4 +32,4 @@ w = alpha[_PR % base]
 while _PR >= base:
     _PR = _PR // base
     w += alpha[_PR % base] 
-print(f"Произведение равно:  {('' if _PR >= 0 else '-') + w[::-1]}" )
+print(f"Произведение равно:  {('' if _PR >= 0 else '-') + w[::-1]}" ) 
